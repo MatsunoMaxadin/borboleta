@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@media (min-width: 481px) {
+    body {
+        background-image: url('Noite-Estrelada.-Vincent-van-Gogh.jpg');
+   }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-image: url('d58f76e7df164ceb36c67adf9f6fd5ef.jpg');
+    }
+}
+
+
+body{
+    
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+pre {
+    background-color: orange;
+    margin:auto;
+    width: 217px;
+    text-align: center ;
+    border: 20px solid ;
+  
+    border-image-source: url('borbo.png');
+    border-image-repeat: repeat;
+    border-image-slice: 27;
+    border-radius: 75px;
+
+}
+
+article{
+    background-color:rgb(83, 255, 255);
+    margin:auto;
+    width: 217px;
+    text-align: center ;
+    border: 20px solid ;
+  
+    border-image-source: url('borbo.png');
+    border-image-repeat: repeat;
+    border-image-slice: 27;
+    border-radius: 75px;
+    
+    font-size: 1em;
+    font-weight: normal;
+
+
+
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 1.5em;
+    margin:auto;
+    background-color: orange;
+    width: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 23px solid;
+    border-radius: 100px;
+    
+    border-image-source: url('2.png');
+    border-image-repeat: repeat;
+    border-image-slice: 27;
+
+  
+  
+}
